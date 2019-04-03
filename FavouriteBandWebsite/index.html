@@ -1,109 +1,96 @@
 <!DOCTYPE html>
 <html>
+<!-- HEAD -->
 <head>
 	<title>Nightwish</title>
 	<meta name="description" content="This is the description">
+	<link rel="stylesheet" href="styles.css">
 </head>
+<!-- BODY -->
 <body>
-	<header>
-		<nav>
+	<!-- HEADER -->
+	<header class="main-header">
+		<nav class="nav main-nav">
 			<ul>
 				<li><a href="index.html">HOME</a></li>
 				<li><a href="store.html">STORE</a></li>
 				<li><a href="about.html">ABOUT</a></li>
 			</ul>
 		</nav>
-		<hr>
-		<h1>Nightwish</h1>
-		<button type="button">Get our Latest Album</button>
-		<br>
-		<br>
-		<!-- TODO : Find a suitable background image -->
-		<button type="button">&#9658</button>
+		<h1 class="band-name band-name-large">Nightwish</h1>
 	</header>
-	<section>
-		<h2>TOURS</h2>
+
+	<!-- SECTION NEW ALBUM-->
+	<section class="content-section container">
+		<button class="btn btn-header" type="button">Get our Latest Album</button>
+		<button class="btn btn-header btn-play" type="button">&#9658</button>
+	</section>
+
+	<!-- SECTION TOURS -->
+	<section class="content-section container">
+		<h2 class="section-header">TOURS</h2>
 		<div>
-			<div>
-				<strong>DEC 5</strong>
-				&lt;&gt;
-				<span>FRANKFURT, DE</span>
-				&lt;&gt;
-				<span>FESTHALLE</span>
-				&lt;&gt;
-				<button type="button">BUY TICKETS</button>
-				<hr>
+			<div class="tour-row">
+				<span class="tour-item tour-date">DEC 5</span>
+				<span class="tour-item tour-city">FRANKFURT, DE</span>
+				<span class="tour-item tour-arena">FESTHALLE</span>
+				<button class="btn tour-item tour-btn btn-primary" type="button">BUY TICKETS</button>
 			</div>
-			<div>
-				<strong>DEC 8</strong>
-				&lt;&gt;
-				<span>WEMBLEY, LONDON, GB</span>
-				&lt;&gt;
-				<span>THE SSE ARENA</span>
-				&lt;&gt;
-				<button type="button">BUY TICKETS</button>
-				<hr>
+			<div class="tour-row">
+				<span class="tour-item tour-date">DEC 8</span>
+				<span class="tour-item tour-city">WEMBLEY, LONDON, GB</span>
+				<span class="tour-item tour-arena">THE SSE ARENA</span>
+				<button class="btn tour-item tour-btn btn-primary" type="button">BUY TICKETS</button>
 			</div>
-			<div>
-				<strong>DEC 10</strong>
-				&lt;&gt;
-				<span>BIRMINGHAM, GB</span>
-				&lt;&gt;
-				<span>ARENA BIRMINGHAM</span>
-				&lt;&gt;
-				<button type="button">BUY TICKETS</button>
-				<hr>
+			<div class="tour-row">
+				<span class="tour-item tour-date">DEC 10</span>
+				<span class="tour-item tour-city">BIRMINGHAM, GB</span>
+				<span class="tour-item tour-arena">ARENA BIRMINGHAM</span>
+				<button class="btn tour-item tour-btn btn-primary" type="button">BUY TICKETS</button>
 			</div>
-			<div>
-				<strong>DEC 11</strong>
-				&lt;&gt;
-				<span>MANCHESTER, GB</span>
-				&lt;&gt;
-				<span>MANCHESTER ARENA</span>
-				&lt;&gt;
-				<button type="button">BUY TICKETS</button>
-				<hr>
+			<div class="tour-row">
+				<span class="tour-item tour-date">DEC 11</span>
+				<span class="tour-item tour-city">MANCHESTER, GB</span>
+				<span class="tour-item tour-arena">MANCHESTER ARENA</span>
+				<button class="btn tour-item tour-btn btn-primary" type="button">BUY TICKETS</button>
 			</div>
-			<div>
-				<strong>DEC 14</strong>
-				&lt;&gt;
-				<span>TURKU, FI</span>
-				&lt;&gt;
-				<span>GATORADE CENTER</span>
-				&lt;&gt;
-				<button type="button">BUY TICKETS</button>
-				<hr>
+			<div class="tour-row">
+				<span class="tour-item tour-date">DEC 14</span>
+				<span class="tour-item tour-city">TURKU, FI</span>
+				<span class="tour-item tour-arena">GATORADE CENTER</span>
+				<button class="btn tour-item tour-btn btn-primary" type="button">BUY TICKETS</button>
 			</div>
-			<div>
-				<strong>DEC 15</strong>
-				&lt;&gt;
-				<span>HELSINKI, FI</span>
-				&lt;&gt;
-				<span>HARTWALL AREENA</span>
-				&lt;&gt;
-				<button type="button">BUY TICKETS</button>
+			<div class="tour-row">
+				<span class="tour-item tour-date">DEC 15</span>
+				<span class="tour-item tour-city">HELSINKI, FI</span>
+				<span class="tour-item tour-arena">HARTWALL AREENA</span>
+				<button class="btn tour-item tour-btn btn-primary" type="button">BUY TICKETS</button>
 			</div>
 		</div>
 	</section>
-	<footer>
-		<h3>Nightwish</h3>
-		<ul>
-			<li>
-				<a href="https://www.youtube.com/channel/UCQplaZZ2mv8fo8Zd-1hQPzg" target="_blank">
-					<img src="images/YouTubeLogo.png" width="20">
-				</a>
-			</li>
-			<li>
-				<a href="https://open.spotify.com/artist/2NPduAUeLVsfIauhRwuft1" target="_blank">
-					<img src="images/SpotifyLogo.png" width="20">
-				</a>
-			</li>
-			<li>
-				<a href="https://www.facebook.com/nightwish/" target="_blank">
-					<img src="images/FacebookLogo.png" width="20">
-				</a>
-			</li>
-		</ul>
+
+	<!-- FOOTER -->
+	<footer class="main-footer">
+		<div class="container main-footer-container">
+			<h3 class="band-name">Nightwish</h3>
+			<ul class="nav footer-nav">
+				<li>
+					<a href="https://www.youtube.com/channel/UCQplaZZ2mv8fo8Zd-1hQPzg" target="_blank">
+						<img src="images/YouTubeLogo.png" width="20">
+					</a>
+				</li>
+				<li>
+					<a href="https://open.spotify.com/artist/2NPduAUeLVsfIauhRwuft1" target="_blank">
+						<img src="images/SpotifyLogo.png" width="20">
+					</a>
+				</li>
+				<li>
+					<a href="https://www.facebook.com/nightwish/" target="_blank">
+						<img src="images/FacebookLogo.png" width="20">
+					</a>
+				</li>
+			</ul>
+		</div>
 	</footer>
 </body>
 </html>
